@@ -69,4 +69,22 @@
         app:layout_constraintTop_toBottomOf="@+id/image_view_cover"
         tools:text="descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme descrição do filme " />
 
+    <TextView
+        android:id="@+id/text_view_cast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3sp"
+        android:maxLines="3"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_desc"
+        tools:text="descrição do eleco descrição do eleco descrição do eleco descrição do eleco descrição do eleco descrição do eleco " />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
