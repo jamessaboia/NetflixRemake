@@ -86,5 +86,18 @@
         app:layout_constraintTop_toBottomOf="@+id/text_view_desc"
         tools:text="descrição do eleco descrição do eleco descrição do eleco descrição do eleco descrição do eleco descrição do eleco " />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/similar"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_cast" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
