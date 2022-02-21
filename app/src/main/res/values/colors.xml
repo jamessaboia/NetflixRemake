@@ -11,5 +11,6 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorSecondary">#D81B60</color>
     <color name="colorGrayDark">#222222</color>
+    <color name="colorGrayLighter">#ddd</color>
 
 </resources>
