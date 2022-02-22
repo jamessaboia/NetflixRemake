@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private static class MovieHolder extends RecyclerView.ViewHolder {
+    static class MovieHolder extends RecyclerView.ViewHolder {
 
         final ImageView imageViewCover;
 
