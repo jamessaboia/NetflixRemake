@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.jamessaboia.netflixremake.model.Category;
 import com.jamessaboia.netflixremake.model.Movie;
+import com.jamessaboia.netflixremake.util.JsonDownloadTask;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
         mainAdapter = new MainAdapter(categories);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(mainAdapter);
+
+        new JsonDownloadTask(this)
+                .execute("https://cdn.tiagoaguiar.co/images/img/AAAAAdGB4BQI-v-nabbMcT85DHpwWWlYuFyEU4vRrH-duWCtsQlWAtFKtM27TkhD9BHePeZQe2W3BwOCFlOTv0JTSYPJ2F6SZ-QWGA.jpg");
 
     }
 
