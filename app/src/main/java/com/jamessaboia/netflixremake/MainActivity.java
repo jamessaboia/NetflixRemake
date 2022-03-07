@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(mainAdapter);
 
         new JsonDownloadTask(this)
-                .execute("https://cdn.tiagoaguiar.co/images/img/AAAAAdGB4BQI-v-nabbMcT85DHpwWWlYuFyEU4vRrH-duWCtsQlWAtFKtM27TkhD9BHePeZQe2W3BwOCFlOTv0JTSYPJ2F6SZ-QWGA.jpg");
+                .execute("https://tiagoaguiar.co/api/netflix/home");
 
     }
 
